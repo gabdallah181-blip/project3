@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- /////////google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gravitas+One&family=Great+Vibes&family=Italianno&family=Playwrite+DE+SAS+Guides&display=swap" rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>document </title>
+</head>
+
+<body>
+    <header class="fixed z-50 w-full h-20 bg-[#302017] shadow-lg flex justify-between items-center px-2 md:px-4 gap-1 sm:text-xs">
+        <div class="left flex flex-col  md:flex-row ">
+            <h2 class="capitalize text-[#caba9f] font-bold sm:text-sm md:text-xl lg:text-3xl">Coffee Craft</h2>
+            <p class="capitalize w-28 md:w-fit h-8 mt-1.2 md:ml-4 p-1 bg-[#caba9f]  text-[#302017] rounded-3xl text-sm md:text-l">Specialty Coffee</p>
+        </div>
+        <ul class="links flex space-x-3 md:space-x-6  text-xs sm:text-base md:text-lg">
+            <li class="text-white text-opacity-70 font-bold hover:text-[#caba9f]  cursor-pointer"><a href="#"></a>Home</li>
+            <li class="text-white text-opacity-70 font-bold hover:text-[#caba9f]  cursor-pointer"><a href="#"></a>Menu</li>
+            <li class="text-white text-opacity-70 font-bold hover:text-[#caba9f]  cursor-pointer"><a href="#"></a>About Us</li>
+            <li class="text-white text-opacity-70 font-bold hover:text-[#caba9f]  cursor-pointer"><a href="#"></a>Contact</li>
+        </ul>
+        <button class="w-20 md:w-32 lg:w-64 h-12 text-sm md:text-lg text-[#302017] font-bold  bg-[#caba9f] rounded-xl hover:shadow-2xl hover:shadow-[#caba9f] hover:duration-300 px-1">Order Now</button>
+    </header>
+
+    <!-- ///////////////////////////////////section1  Craft -->
+    <div class="Craft bg-[#caba9f] px-4 pt-32 md:pt-40 pb-24 flex flex-col md:flex-row gap-10">
+        <div class="left w-full md:w-6/12 pr-4">
+            <h2 class="text-4xl sm:text-5xl md:text-6xl text-[#302017] font-bold">We craft <span class="text-white">great <br> coffee</span> for your<br> perfect moments☕</h2>
+            <p class="text-xl py-8 text-[#302017] text-opacity-70">We serve freshly brewed coffee made from carefully selected beans.
+            From your morning espresso to your favorite latte, every cup is crafted with passion. </p>
+            <ul  class="flex flex-col sm:flex-row sm:flex-wrap gap-3 sm:gap-6 mb-6  [&>li>i]:bg-[#302017] [&>li>i]:size-7 [&>li>i]:text-center [&>li>i]:text-[#caba9f] [&>li>i]:rounded-full [&>li>i]:text-lg [&>li>i]:mr-2">
+                <li class="flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Fresh Daily Roast</p>
+                </li>
+                <li  class="flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>+15,000 Cups Served</p>
+                </li>
+                <li  class="flex">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Expert Baristas</p>
+                </li>
+            </ul>
+            <div class="button flex flex-col sm:flex-row items-stretch sm:items-center gap-3">
+                <button class="w-full sm:w-5/12 h-14 sm:h-16 bg-[#302017] rounded-lg text-white text-xl font-bold hover:shadow-xl">View Our Menu</button>
+                <button class="px-5 sm:px-7 py-4 border-2 text-white  border-gray-600 border-opacity-60  rounded-xl text-xl font-bold hover:border-[#302017] cursor-pointer  hover:text-[#302017] hover:shadow-xl duration-100">
+                    <i class="fa-solid fa-play"></i>
+                    Discover Our Coffee
+                </button>
+            </div>
+        </div>
+        <div class="right w-full md:w-6/12 relative shadow-2xl rounded-3xl min-h-[250px] md:min-h-[500px]">
+            <div class="image relative w-full h-full shadow-xl rounded-3xl ">
+            <img class="md:absolute w-full  rounded-3xl" src="images/sfv.jpeg" alt="">
+            <!-- <i class="fa-solid fa-leaf absolute top-1/2 right-1/2 text-black  text-opacity-80 translate-x-1/2 -translate-y-1/2 text-8xl"></i> -->
+            </div>
+            <div class="client absolute z-20 -bottom-6 -left-5 w-44 h-20 rounded-xl bg-[#302017] shadow-xl flex items-center justify-evenly">
+                <i class="fa-solid fa-users  size-12 pt-1 rounded-full text-center text-2xl bg-[#caba9f] text-[#302017]"></i>
+                <div class="paragragh">
+                    <p class="-mt-3 text-white text-opacity-50">Happy clients</p>
+                    <p class="text-2xl text-white font-bold">+1200</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ////////////////////////////////// section2 Offer -->
+    <div class="Offer px-4 bg-[#caba9f]">
+        <div class="Offer-header w-1/2 mx-auto text-center pt-20 relative">
+            <h2 class="text-center text-[#302017] text-4xl font-bold ">What We Offer</h2>
+            <p  class="text-lg text-[#302017] text-opacity-50  mt-4  before:content-[''] before:absolute before:w-20 before:h-1 before:bg-[#302017] before:-bottom-4  before:left-1/2 before:-translate-x-1/2">Everything you need for a great coffee experience.</p>
+        </div>
+        <div class="Offer-section  grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 py-20  [&>.child]:border [&>.child]:border-opacity-50 [&>.child]:border-gray-700 [&>.child]:rounded-xl [&>.child]:px-7 [&>.child]:py-7
+            [&>.child>i]:text-4xl  [&>.child>i]:text-[#302017]  [&>.child>i]:bg-white  [&>.child>i]:size-16 [&>.child>i]:text-center [&>.child>i]:pt-3 [&>.child>i]:rounded-xl
+            [&>.child>ul]:mt-5 [&>.child>ul>li]:flex [&>.child>ul>li]:items-center [&>.child>ul>li>p]:ml-2 [&>.child>ul>li>i]:text-[#302017]
+            [&>.child>h2]:text-2xl [&>.child>h2]:text-[#302017] [&>.child>h2]:font-bold [&>.child>h2]:my-4
+            [&>.child>ul>li>p]:my-1 [&>.child>p]:text-[#302017] [&>.child>p]:text-opacity-50 ">
+            <div class="div1 child hover:[&]:shadow-2xl hover:[&]:scale-105 duration-500 hover:[&]:border-[#302017]  [&[class]:hover_.fa-leaf]:bg-[#302017] [&[class]:hover_.fa-leaf]:text-[#caba9f]  [&[class]:hover_.fa-leaf]:duration-200 [&[class]:hover_.pp]:text-white">
+                <i class="fa-solid fa-leaf "></i>
+                <h2>Fresh Coffee</h2>
+                <p class="pp">Enjoy freshly brewed coffee made from carefully selected premium beans.</p>
+                <ul class="">
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Premium Coffee Beans</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Freshly Roasted</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Rich & Smooth Flavor</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="div2 child hover:[&]:shadow-2xl hover:[&]:scale-105 duration-500 hover:[&]:border-[#302017]  [&[class]:hover_.fa-kitchen-set]:bg-[#302017] [&[class]:hover_.fa-kitchen-set]:text-[#caba9f]  [&[class]:hover_.pp]:text-white [&[class]:hover_.fa-kitchen-set]:duration-200">
+                <i class="fa-solid fa-kitchen-set"></i>
+                <h2>Fresh Pastries</h2>
+                <p class="pp">Enjoy delicious pastries and desserts made fresh every day to complement your coffee.</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Freshly Baked</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Delicious Flavors</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Perfect With Coffee</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="div3 child hover:[&]:shadow-2xl hover:[&]:scale-105 duration-500 hover:[&]:border-[#302017] [&[class]:hover_.fa-mug-hot]:bg-[#302017] [&[class]:hover_.fa-mug-hot]:text-[#caba9f] [&[class]:hover_.pp]:text-white [&[class]:hover_.fa-code]:duration-200 ">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h2>Takeaway & Delivery</h2>
+                <p class="pp">Order your favorite CoffeeCraft drinks and enjoy great coffee wherever you are.</p>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Fast Delivery</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Easy Ordering</p>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-check"></i>
+                        <p>Fresh & Delicious</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- //////////////////////////////// section3 achievements -->
+    <div class="achievemets relative overflow-hidden h-60 bg-gradient-to-r from-[#302017] to-[#caba9f]  grid grid-cols-2 md:grid-cols-4 gap-6 py-10 md:py-0 min-h-60 list-none
+
+    <!-- //////// before -->
+    before:content-[''] before:absolute before:size-72 before:bg-purple-200 before:opacity-20 before:rounded-full before:-bottom-32 before:-right-32
+
+    <!-- //////// after -->
+    after::content-[''] after:absolute after:size-64 after:bg-blue-200 after:opacity-20 after:rounded-full after:-top-32 after:-left-32
+
+    <!-- /////// li -->
+    [&_li]:w-48 [&_li]:text-center [&_li_h2]:text-4xl md:[&_li_h2]:text-6xl [&_li_h2]:text-white [&_li_h2]:font-bold
+
+    <!-- //////// p -->
+    [&_li_p]:text-base md:[&_li_p]:text-xl [&_li_p]:mt-4 [&_li_p]:text-white
+    ">
+    <li>
+        <h2>+500</h2>
+        <p>Cups Served</p>
+    </li>
+    <li>
+        <h2>+20</h2>
+        <p>Coffee Varieties</p>
+    </li>
+    <li>
+        <h2>+10</h2>
+        <p>Signature Drinks</p>
+    </li>
+    <li>
+        <h2>+7</h2>
+        <p>Years of Experience</p>
+    </li>
+    </div>
+
+    <!-- ////////////////////////////////// section4  Baristas -->
+    <div class="Baristas py-20 text-center px-4 bg-[#caba9f]
+    [&>h2]:text-4xl md:[&>h2]:text-5xl [&>h2]:font-bold  
+    [&>p]:text-base md:[&>p]:text-xl [&>p]:mt-5 [&>p]:opacity-50 
+    ">
+        <h2>Our Baristas</h2>
+        <p>The people behind every perfect cup.</p>
+        <div class="Baristas pt-20 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6
+
+            <!-- ///////////////  child -->
+        [&>.team-child]:rounded-xl [&>.team-child]:duration-300  [&>.team-child:hover]:hover:scale-105  [&>.team-child:hover]:hover:duration-300   [&>.team-child:hover>.user>.icons]:hover:opacity-100   [&>.team-child:hover>.user>.icons]:hover:duration-500   [&>.team-child:hover>.user>img]:hover:opacity-30   [&>.team-child:hover]:hover:shadow-2xl
+
+        <!-- ////////////////// user image -->
+        [&>.team-child>.user>img]:size-32   [&>.team-child>.user>img]:rounded-full    [&>.team-child>.user>img]:m-auto 
+
+        <!-- //////////////// icons -->
+        [&>.team-child>.user>.icons]:opacity-0     [&>.team-child>.user>.icons]:duration-500   [&>.team-child>.user>.icons]:flex    [&>.team-child>.user>.icons]:justify-evenly     [&>.team-child>.user>.icons]:absolute
+        [&>.team-child>.user>.icons]:top-1/2       [&>.team-child>.user>.icons]:left-1/2       [&>.team-child>.user>.icons]:-translate-y-1/2       [&>.team-child>.user>.icons]:-translate-x-1/2       [&>.team-child>.user>.icons]:space-x-4
+
+        <!-- //////////////// info -->
+        [&>.team-child>.info]:bg-[#302017]   [&>.team-child>.info>h2]:text-[#caba9f]   [&>.team-child>.info]:h-48
+        [&>.team-child>.info>p:first-of-type]:text-white [&>.team-child>.info>p:last-of-type]:text-white  [&>.team-child>.info>p:last-of-type]:text-opacity-50
+        
+        <!-- ////////// icon===> i -->
+        [&>.team-child>.user>.icons>i]:cursor-pointer   [&>.team-child>.user>.icons>i]:text-3xl     [&>.team-child>.user>.icons>i]:size-14     [&>.team-child>.user>.icons>i]:bg-white      [&>.team-child>.user>.icons>i]:rounded-full     [&>.team-child>.user>.icons>i]:pt-3
+        [&>.team-child>.user>.icons>i:nth-of-type(1):hover]:bg-blue-600  [&>.team-child>.user>.icons>i:nth-of-type(1):hover]:text-white
+        [&>.team-child>.user>.icons>i:nth-of-type(2):hover]:bg-blue-400  [&>.team-child>.user>.icons>i:nth-of-type(2):hover]:text-white
+        [&>.team-child>.user>.icons>i:nth-of-type(3):hover]:bg-red-600   [&>.team-child>.user>.icons>i:nth-of-type(3):hover]:text-white
+        ">
+            <div class="div1 team-child ">
+                <div class="user relative  py-20 bg-gradient-to-br from-[#302017] to-purple-[#caba9f] rounded-t-2xl">
+                    <img src="images/team1.jpeg" alt="">
+                    <div class=" icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="info shadow-2xl rounded-b-xl pb-5">
+                    <h2 class="pt-8 text-2xl font-bold">Ahmed Mohamed</h2>
+                    <p class="py-1">Head Barista</p>
+                    <p class="py-4">Passionate about espresso and latte art.</p>
+                </div>
+            </div>
+
+            <div class="div2 team-child rounded-xl">
+                <div class="user relative py-20 bg-gradient-to-br from-[#302017] to-purple-[#caba9f] rounded-t-2xl
+                ">
+                    <img src="images/team2.jpeg" alt="">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="info shadow-2xl rounded-b-xl pb-5">
+                    <h2 class="pt-8 text-2xl font-bold">Sara Ahmed</h2>
+                    <p  class="py-1 ">Barista</p>
+                    <p  class="py-4">Specialist in handcrafted coffee and specialty drinks.</p>
+                </div>
+            </div>
+
+            <div class="div3 team-child rounded-xl">
+                <div class="user relative py-20 bg-gradient-to-br from-[#302017] to-purple-[#caba9f] rounded-t-2xl
+                ">
+                    <img src="images/team3.jpeg" alt="">
+                    <div class="icons ">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="info shadow-2xl rounded-b-xl pb-5">
+                    <h2 class="pt-8 text-2xl font-bold">Joon lary</h2>
+                    <p  class="py-1">Coffee Specialist</p>
+                    <p  class="py-4">Focused on finding the perfect flavor in every cup.</p>
+                </div>
+            </div>
+
+            <div class="div4 team-child rounded-xl">
+                <div class="user relative py-20 bg-gradient-to-br from-[#302017] to-purple-[#caba9f] rounded-t-2xl
+                ">
+                    <img src="images/team4.jpeg" alt="">
+                    <div class="icons">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+                <div class="info shadow-2xl rounded-b-xl pb-5">
+                    <h2 class="pt-8 text-2xl font-bold">Mostfa Aimen</h2>
+                    <p  class="py-1">Barista</p>
+                    <p  class="py-4">Loves creating delicious drinks and great coffee moments.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ///////////////////////////////////////////   section5 footer -->
+    <footer class="footer bg-[#302017] bg-opacity-90
+    [&_.child_h2]:text-2xl [&_.child_h2]:text-white [&_.child_h2]:font-bold [&_.child_h2]:mb-5">
+    <div class="first w-full flex flex-col md:flex-row gap-10 py-20 px-4">
+            <div class="child left w-full md:w-1/2 rounded-xl p-8 bg-[#302017]">
+                <h2>Visit Coffee Craft</h2>
+
+                <form action="" class="space-y-4 [&>*]:block [&>*]:space-y-4 [&>*]:w-full [&>*]:rounded-xl [&>*]:p-4 [&>*]:outline-none [&>*]:focus:outline-none  [&>*]:text-[#302017] placeholder:text-[#302017]">
+                    <input class="focus:ring-[#302017] ring-none focus:ring-2" type="text" placeholder="Full Name">
+                    <input class="focus:ring-[#302017] ring-none focus:ring-2" type="email" placeholder="Email Addres">
+                    <textarea class="h-32 text-[#302017] focus:ring-[#302017] ring-none focus:ring-2" name="" id="" placeholder="Your Message"></textarea>
+                    <input class="btn bg-[#caba9f] text-white text-xl cursor-pointer" value="Send Message" type="submit">
+                </form>
+            </div>
+            <div class="child right w-full md:w-1/2 md:ml-0">
+                <h2 class="">Contact information</h2> 
+                <div class="contact-info [&_li]:flex   [&_li]:mb-4  [&_li]:h-12
+                [&_li_i]:h-12  [&_li_i]:w-12 [&_li_i]:mr-5 [&_li_i]:bg-[#302017]  [&_li_i]:text-[#caba9f]  [&_li_i]:rounded-xl [&_li_i]:text-3xl [&_li_i]:pt-2  [&_li_i]:text-center
+                [&_li_.info_p]:text-white [&_li_.info_:first-of-type]:opacity-50
+                ">
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div class="info">
+                            <p>Adress</p>
+                            <p>Cairo, Egypt</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        <div class="info">
+                            <p>Phone</p>
+                            <p>+20 120 307 3596</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        <div class="info">
+                            <p>Email</p>
+                            <p>Abdallah847@gmail.com</p>
+                        </div>
+                    </li>
+                </div>
+                <div class="map relative w-full h-48 rounded-2xl mt-4 bg-[#302017]">
+                    <div class="inner flex items-center absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+                        <i class="fa-solid fa-map-location-dot text-3xl text-white mr-2"></i>
+                        <p class="text-xl -mt-1 text-white">map</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="end relative w-full min-h-20 py-5 flex flex-col sm:flex-row justify-center sm:justify-between items-center gap-4
+        before:absolute before:top-0 before:left-0 before:w-full before:h-1 before:border-white before:border-opacity-50  before:border-t before:bg-opacity-50" >
+            <div class="all-rights [&_p]:text-sm [&_p]:sm:text-x [&_p]:text-white [&_p]:opacity-50 px-4">
+                <p>&copy;2026 Coffee Craft. All Rights Reserved.</p>
+            </div>
+            <div class="icons [&_i]:ml-5 [&_i]:text-white [&_i]:text-opacity-70 [&_i]:text-xl px-4 [&_i:hover]:scale-125 cursor-pointer [&_i:hover]:duration-500 [&_i]:duration-500">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
